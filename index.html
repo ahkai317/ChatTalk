@@ -532,9 +532,37 @@
 
     <!-- JQuery -->
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/all.js"></script>
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <!-- Initialize Swiper & Jquery -->
-    <script src="js/all.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 16,
+
+        /* 斷點設定 */
+        breakpoints: {
+          /* 螢幕寬度大於等於 992px 時切換為 3 欄 */
+          992: {
+            slidesPerView: 3,
+          },
+          /* 螢幕寬度大於等於 768px 時切換為 2 欄 */
+          768: {
+            slidesPerView: 2,
+          },
+          /* 更小時都顯示 1 欄 */
+          0: {
+            slidesPerView: 1,
+          },
+        },
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+    });
+    </script>
+
   </body>
 </html>
