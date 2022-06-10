@@ -485,19 +485,10 @@
 @media (max-width:992px) {
 
     .footer-title {
-        max-width: 424px;
-        height: 46px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        position: absolute;
         top: 70%;
 
         span {
             font-size: 28px;
-            font-weight: 700;
         }
     }
 
@@ -646,19 +637,9 @@
     // footer
 
     .footer-title {
-        max-width: 424px;
-        height: 46px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        position: absolute;
         top: 74%;
-
         span {
             font-size: 24px;
-            font-weight: 700;
         }
     }
 
