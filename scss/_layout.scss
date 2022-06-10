@@ -2,16 +2,13 @@
 
 .main {
     max-width: 1120px;
-    /* width: 1085px; */
     margin: 0 auto;
     padding: 0 13px 0 16px;
-
 }
 
 
 /* navbar */
 .nav {
-    // padding: 24px 0 24px;
     max-width: 1120px;
     margin: 0 auto;
 
@@ -23,7 +20,6 @@
 
     img {
         width: 215.07px;
-        // height: 40px;
     }
 
     .nav-btn {
@@ -46,12 +42,6 @@
         }
     }
 }
-
-// @media (max-width: 1120px) {
-//     .main {
-//         margin: 0 20px;
-//     }
-// }
 
 @media(max-width: 768px){
     .nav {
@@ -77,10 +67,5 @@
         padding: 0 20px;
     }
 }
-// @media(max-width: 375){
-
-// }
-
-/* footer */
 
 

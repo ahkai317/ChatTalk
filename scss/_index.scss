@@ -1,15 +1,6 @@
 /* _index.scss */
 
-// body {
-//     background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg");
-//     background-repeat: no-repeat;
-//     background-position: top right;
-// }
-
 .hero {
-    // margin: 0 auto;
-    // height: 100vh;
-    // outline: 5px solid $c-lakegreen;
     position: relative;
 
     background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg");
@@ -30,38 +21,11 @@
 
     }
 
-    // .hero-ball3 {
-    //     position: absolute;
-    //     width: 153px;
-    //     height: 153px;
-    //     background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/ball03.svg");
-    //     top: 2627px;
-    //     left: 50px;
-    //     z-index: -1;
-
-    // }
-
-    // .to-top {
-    //     position: fixed;
-    //     top: calc((100vh - 3%) - 71px);
-    //     right: 3%;
-    //     width: 71px;
-    //     height: 71px;
-
-    //     color: white;
-    //     font-size: 20px;
-    //     font-weight: 900;
-
-    //     border-radius: 50%;
-    //     background: $c-lakegreen;
-    //     z-index: auto;
-    // }
 }
 
 
 /* banner */
 .banner {
-    /* height: 534px; */
 
     display: flex;
     justify-content: space-between;
@@ -79,15 +43,7 @@
 
         margin-bottom: 8px;
     }
-    // .c2 {
-    //     font-size: 48px;
-    //     font-weight: bold;
-    //     color: #221e1f;
 
-    //     line-height: 1.5;
-
-    //     margin-bottom: 16px;
-    // }
     .c3 {
         font-size: 20px;
         font-weight: 400;
@@ -102,12 +58,7 @@
 }
 
 
-
-
-
-
-
-/* section1 */
+/* platform */
 .section1 {
     max-width: 969px;
     margin: 0 auto;
@@ -117,15 +68,6 @@
 
     margin-bottom: 100px;
 }
-
-// .section1 h2 {
-//     font-size: 32px;
-//     font-weight: bold;
-//     color: #221e1f;
-//     text-align: center;
-
-//     margin-bottom: 48px;
-// }
 
 .s1-content {
     width: 100%;
@@ -162,11 +104,10 @@
     color: #747474;
 }
 
-/* section2 */
+/* situation */
 
 .section2 {
     max-width: 1088px;
-    // height: 527px;
     margin: 0 auto 100px;
 
     outline: 1px solid $c-lakegreen;
@@ -182,7 +123,7 @@
     }
 }
 
-/* section3 */
+/* feature */
 .section3 {
     display: flex;
     justify-content: space-between;
@@ -205,9 +146,6 @@
 
             padding: 32px;
             margin-bottom: 28px;
-            /* display: flex;
-            flex-direction: column;
-            justify-content: space-between; */
         }
         .s3-icon {
             width: 86px;
@@ -349,30 +287,12 @@
   left: -90px;
   z-index: -1;
 }
-// .s4-carousel{
-//     .carousel-dot {
-//         width: 10px;
-//         height: 10px;
-//         background: #dddddd;
-//         border-radius: 50rem;
-//         &:active {
-//             width: 16px;
-//             background: #ffd153;
-//         }
-//     }
-//     .carousel-mg {
-//         margin-right: 8px;
-//     }
-// }
 
-/* section5 */
+/* footer */
 .footer{
     background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    // background-position: center;
-    /* width: auto; */
-    /* height: 503px; */
 
     margin: 0 auto 47.33px auto;
 
@@ -383,11 +303,6 @@
     align-items: center;
 
     position: relative;
-
-    // img {
-    //     width: 100%;
-    //     min-height: 461px;
-    // }
 }
 
 .footer-title {
@@ -400,8 +315,6 @@
 
     position: absolute;
     top: 68%;
-    /* top: 51.7%; */
-    /* left: calc(471/1366)%; */
     span {
         font-size: 32px;
         font-weight: 700;
@@ -422,8 +335,6 @@
 
     position: absolute;
     top: 87%;
-    /* top: 70.4%; */
-    /* left: calc(615/1366)%; */
 
     &:hover {
         opacity: 0.8;
@@ -450,8 +361,6 @@
 
     // feature
     .section3 {
-        // display: flex;
-        // justify-content: space-between;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
@@ -577,17 +486,9 @@
             height: 305px;
 
             position: relative;
-            // background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg");
-            // background-repeat: no-repeat;
-            // background-position: bottom;
             .hero-sm{
                 display: inline-block;
-                // background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home_sm.svg");
-                // background-repeat: no-repeat;
-                // background-position: bottom;
                 position: absolute;
-                // width: 350px;
-                // height: 245px;
                 left: 0px;
                 bottom: -22px;
                 z-index: -1;
@@ -624,8 +525,6 @@
         .s3-cards {
             display: flex;
             flex-direction: column;
-            // justify-content: space-between;
-            // flex-wrap: nowrap;
             .s3-card {
                 margin-bottom: 24px;
             }

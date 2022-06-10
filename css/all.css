@@ -14944,7 +14944,6 @@ h2, .h2, h3, .h3, p {
 /* _layout.scss */
 .main {
   max-width: 1120px;
-  /* width: 1085px; */
   margin: 0 auto;
   padding: 0 13px 0 16px;
 }
@@ -15018,7 +15017,6 @@ h2, .h2, h3, .h3, p {
   }
 }
 
-/* footer */
 /* _index.scss */
 .hero {
   position: relative;
@@ -15039,7 +15037,6 @@ h2, .h2, h3, .h3, p {
 
 /* banner */
 .banner {
-  /* height: 534px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15077,7 +15074,7 @@ h2, .h2, h3, .h3, p {
   display: none;
 }
 
-/* section1 */
+/* platform */
 .section1 {
   max-width: 969px;
   margin: 0 auto;
@@ -15142,7 +15139,7 @@ h2, .h2, h3, .h3, p {
   color: #747474;
 }
 
-/* section2 */
+/* situation */
 .section2 {
   max-width: 1088px;
   margin: 0 auto 100px;
@@ -15165,7 +15162,7 @@ h2, .h2, h3, .h3, p {
   height: 388px;
 }
 
-/* section3 */
+/* feature */
 .section3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15199,9 +15196,6 @@ h2, .h2, h3, .h3, p {
   border-radius: 12px;
   padding: 32px;
   margin-bottom: 28px;
-  /* display: flex;
-            flex-direction: column;
-            justify-content: space-between; */
 }
 
 .section3 .s3-cards .s3-icon {
@@ -15353,13 +15347,11 @@ h2, .h2, h3, .h3, p {
   z-index: -1;
 }
 
-/* section5 */
+/* footer */
 .footer {
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: auto; */
-  /* height: 503px; */
   margin: 0 auto 47.33px auto;
   min-height: 461px;
   display: -webkit-box;
@@ -15388,8 +15380,6 @@ h2, .h2, h3, .h3, p {
           align-items: center;
   position: absolute;
   top: 68%;
-  /* top: 51.7%; */
-  /* left: calc(471/1366)%; */
 }
 
 .footer-title span {
@@ -15415,8 +15405,6 @@ h2, .h2, h3, .h3, p {
           align-items: center;
   position: absolute;
   top: 87%;
-  /* top: 70.4%; */
-  /* left: calc(615/1366)%; */
 }
 
 .footer-btn:hover {

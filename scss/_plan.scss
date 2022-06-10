@@ -2,8 +2,6 @@
 
 .hero-plan {
     margin: 0 auto;
-    // height: 100vh;
-    // outline: 5px solid $c-lakegreen;
     position: relative;
 
     background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg");
@@ -40,18 +38,12 @@
     max-width: 320px;
     height: 110px;
 
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: flex-end;
-
     margin: 92px 0 280px;
 }
 
 /* program */
 .program {
     max-width: 909px;
-
-    // .suggest-program {
 
         .suggest-list{
             max-width: 736px;
@@ -135,7 +127,6 @@
             }
         }
 
-    // }
 }
 
 /* faq */
@@ -325,118 +316,3 @@
         }
     }
 }
-
-// .suggest-list{
-//     max-width: 736px;
-
-//     a {
-//         max-width: 144px;
-//         height: 50px;
-//         padding: 12px 32px;
-//         font-size: 18px;
-//         color: $c-lakegreen;
-//         text-align: left;
-//         font-family: 'Comfortaa', cursive;
-
-//         span {
-//             font-family: 'Noto Sans TC', sans-serif;
-//         }
-
-//         &:hover {
-//             color: $white;
-//             background: $c-lakegreen;
-//         }
-
-//     }
-//     .a5 {
-//         padding: 12px 31px;
-//     }
-// }
-
-
-
-// .program {
-//     max-width: 909px;
-
-//     .suggest-program {
-
-//         .suggest-list{
-//             max-width: 736px;
-
-//             a {
-//                 max-width: 144px;
-//                 height: 50px;
-//                 padding: 12px 32px;
-//                 font-size: 18px;
-//                 color: $c-lakegreen;
-//                 text-align: left;
-//                 font-family: 'Comfortaa', cursive;
-
-//                 span {
-//                     font-family: 'Noto Sans TC', sans-serif;
-//                 }
-
-//                 &:hover {
-//                     color: $white;
-//                     background: $c-lakegreen;
-//                 }
-
-//             }
-//             .a5 {
-//                 padding: 12px 31px;
-//             }
-//         }
-
-//         .suggest-content {
-//             max-width: 100%;
-
-//             .card {
-//                border-radius: 12px;
-//                padding: 16px 0 32px;
-//             }
-
-//             .budget {
-//                 max-width: 392px;
-//                 margin: 0 auto;
-//                 .box {
-//                     max-width: 169px;
-//                     padding: 24px 32px;
-//                     border-radius: 12px;
-//                 }
-//             }
-
-//             .p1 {
-//                 font-size: 12px;
-//             }
-//             .p2 {
-//                 max-height: 35px;
-//                 font-size: 32px;
-//                 font-family: 'Comfortaa', cursive;
-//                 sub {
-//                     font-size: 12px;
-//                     line-height: 0;
-//                     font-family: 'Noto Sans TC', sans-serif;
-//                 }
-//             }
-
-//             .equal {
-//                 width: 16px;
-//                 font-size: 29px;
-//                 text-align: left;
-//             }
-
-//             .support {
-//                 padding: 0 29px;
-//             }
-
-//             .btn {
-//                 // margin-bottom: 32px;
-//                 max-width: 136px;
-//                 margin: 0 auto;
-//                 padding: 12px 32px;
-//             }
-//         }
-
-//     }
-// }
-
