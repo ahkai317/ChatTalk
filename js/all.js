@@ -51,45 +51,6 @@ $(document).ready(function() {
             $(this).find('img').attr("src", "https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/icon_plus.svg");
         }
     });
-    // $('.qaa:nth-child(1)').click(function(event){
-    //     /* Act in the event */
-    //     // $('.magic').slideToggle(1000).slideDown(3000);
-    //     // $('.magic').slideUP(1000).slideDown(3000);
-    //     //選擇器, 並給予事件
-    //     $('.qaa:nth-child(1) > .question').toggleClass('text-c-lakegreen fw-bold');
-    //     $(this).find('img').attr('src', 'https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_minus.svg').attr('src', 'https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg');
-    //     // $('.qaa').toggleClass(1000)
-    //     // $('.magic').toggleClass('orange');
-    //     // $('.magic2').fadeToggle(2000);
-    // });
-    // $('.qaa:nth-child(2)').click(function(event){
-    //     /* Act in the event */
-    //     // $('.magic').slideToggle(1000).slideDown(3000);
-    //     // $('.magic').slideUP(1000).slideDown(3000);
-    //     //選擇器, 並給予事件
-    //     $('.qaa:nth-child(2) > .question').toggleClass('text-c-lakegreen fw-bold');
-    //     // $('.qaa').toggleClass(1000)
-    //     // $('.magic').toggleClass('orange');
-    //     // $('.magic2').fadeToggle(2000);
-    // });
-    // $('.qaa:nth-child(3)').click(function(event){
-    //     /* Act in the event */
-    //     // $('.magic').slideToggle(1000).slideDown(3000);
-    //     // $('.magic').slideUP(1000).slideDown(3000);
-    //     //選擇器, 並給予事件
-    //     $('.qaa:nth-child(3) > .question').toggleClass('text-c-lakegreen fw-bold');
-    //     // $('.qaa:nth-child(3)').toggle($('.qaa:nth-child(3)').append('<p class="answer mb-3">當然哦！我們錢都收了，不會拋棄你的！<br>請您直接來我們公司，我們假日也都在辦公室。</p>'));
-    //     // $('.qaa').toggleClass(1000)
-    //     // $('.magic').toggleClass('orange');
-    //     // $('.magic2').fadeToggle(2000);
-    // });
-
-    // $('h2').mouseleave(function(event){
-    //     $('.magic').removeClass('orange');
-    // });
-
-    //變更屬性
-    // $('a').attr('href', 'http://www.google.com');
 });
 
 // Initialize Swiper
