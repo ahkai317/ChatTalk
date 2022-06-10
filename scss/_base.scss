@@ -2,6 +2,7 @@
 
 *,*::before, *::after {
     box-sizing: border-box;
+    text-decoration: none;
 }
 html, body {
     // max-width: 1366px;
@@ -9,6 +10,11 @@ html, body {
     font-family: 'Noto Sans TC', sans-serif;
     line-height: 1.5;
 }
+
+ul, ol, li {
+
+}
+
 img {
     max-width: 100%;
     height: auto;
