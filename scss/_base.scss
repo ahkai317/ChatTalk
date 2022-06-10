@@ -1,0 +1,31 @@
+/* _base.scss */
+
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+html, body {
+    // max-width: 1366px;
+    // margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.5;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    &:hover {
+        color: white;
+    }
+    &:active {
+        color: white;
+    }
+}
+sub {
+    vertical-align: sub;
+}
+
+h2, h3, p {
+    color: #221E1F;
+}
