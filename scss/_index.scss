@@ -369,10 +369,12 @@
 .footer{
     background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    // background-position: center;
     /* width: auto; */
     /* height: 503px; */
-    margin: 0 auto 47.33px;
+
+    margin: 0 auto 47.33px auto;
 
     min-height: 461px;
 
@@ -436,6 +438,13 @@
 
 
 /* RWD */
+
+@media (max-width: 1638px) {
+
+    .footer{
+        background-size: contain;
+    }
+}
 
 @media(max-width: 1037px){
 

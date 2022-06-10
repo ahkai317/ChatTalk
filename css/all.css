@@ -15357,10 +15357,10 @@ h2, .h2, h3, .h3, p {
 .footer {
   background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   /* width: auto; */
   /* height: 503px; */
-  margin: 0 auto 47.33px;
+  margin: 0 auto 47.33px auto;
   min-height: 461px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15433,6 +15433,12 @@ h2, .h2, h3, .h3, p {
 }
 
 /* RWD */
+@media (max-width: 1638px) {
+  .footer {
+    background-size: contain;
+  }
+}
+
 @media (max-width: 1037px) {
   .section3 {
     -webkit-box-orient: vertical;
@@ -15489,23 +15495,10 @@ h2, .h2, h3, .h3, p {
 
 @media (max-width: 992px) {
   .footer-title {
-    max-width: 424px;
-    height: 46px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: absolute;
     top: 70%;
   }
   .footer-title span {
     font-size: 28px;
-    font-weight: 700;
   }
 }
 
@@ -15627,23 +15620,10 @@ h2, .h2, h3, .h3, p {
     margin-bottom: 16px;
   }
   .footer-title {
-    max-width: 424px;
-    height: 46px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: absolute;
     top: 74%;
   }
   .footer-title span {
     font-size: 24px;
-    font-weight: 700;
   }
 }
 
