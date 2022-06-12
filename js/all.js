@@ -34,7 +34,7 @@ $(document).ready(function() {
     $('.suggest-list > a:nth-child(5)').click(function(event){
         $('.suggest-list > a').removeClass('bg-c-lakegreen text-white');
         $('.suggest-list > a:nth-child(5)').addClass('bg-c-lakegreen text-white');
-        $('.box > .p2:even').text('>25000').append('<sub class="ms-1 fw-bold">位</sub>');
+        $('.box > .p2:even').text('>25000');
         $('.box > .p2:odd').text('1800').append('<sub class="ms-1 fw-bold">TWD</sub>');
         $('.box > .s-price').text('2800').append('<sub class="ms-1 fw-bold">TWD</sub>');
     });
