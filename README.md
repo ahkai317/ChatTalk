@@ -1,3 +1,3 @@
-# ChatTalk
-ChatTalk web site
+# ChatTalker
+ChatTalker web site
 https://ahkai317.github.io/ChatTalk/
